@@ -1,0 +1,54 @@
+<!-- Contacto -->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Contacto</h2>
+                <hr class="primary">
+                <p class="text-muted">¡Cuéntanos cómo podemos ayudarte el día de hoy!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-lg-offset-2 text-center">
+                <i class="fa fa-phone fa-3x sr-contact" data-sr-id="11" style="; visibility: visible;  -webkit-transform: scale(0.3); opacity: 0;transform: scale(0.3); opacity: 0;"></i>
+                <p>+52(044) 55-2496-0876</p>
+            </div>
+            <div class="col-lg-4 text-center">
+                <i class="fa fa-envelope-o fa-3x sr-contact" data-sr-id="12" style="; visibility: visible;  -webkit-transform: scale(0.3); opacity: 0;transform: scale(0.3); opacity: 0;"></i>
+                <p>
+                    <a href="mailto:contacto@startup.com">contacto@startup.com</a>
+                </p>
+            </div>
+        </div>
+        <script src="js/jquery.unobtrusive-ajax.js"></script>
+
+        <div id="ContactForm" class="row form-group">
+            <form action="http://localhost:58386/Home/Contact" data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#ContactForm"
+                id="form0" method="post" role="form">
+                <input name="__RequestVerificationToken" type="hidden" value="Lm6ZL1BDQ9bYdxnDiTM70xq4dHPww_EL0zmid2pxmIpG1j6aMOgRRNu2NUJA2Y39YMJhCmVb7eU-Bl8KDn6Kc1VTzP0hdWLXi0hXkxa-rwQ1">
+                <div class="col-lg-offset-1 col-lg-4">
+                    <input class="form-control" data-val="true" data-val-length="El Nombre debe ser de al menos 3 caracteres de longitud" data-val-length-max="50"
+                        data-val-length-min="3" data-val-required="Se requiere un Nombre" id="Name" name="Name" placeholder="Nombre*"
+                        type="text" value="">
+                    <span class="field-validation-valid text-danger" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+                    <input class="form-control" data-val="true" data-val-email="No es un Correo electrónico válido" data-val-required="Se requiere un Correo electrónico"
+                        id="Email" name="Email" placeholder="Correo electrónico*" type="text" value="">
+                    <span class="field-validation-valid text-danger" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+                    <input class="form-control" data-val="true" data-val-length="El Teléfono de contacto debe ser de 10 caracteres de longitud"
+                        data-val-length-max="10" data-val-length-min="10" data-val-regex="No es un Teléfono de contacto válido"
+                        data-val-regex-pattern="\d{10}" data-val-required="Se requiere un Teléfono de contacto" id="Phone" name="Phone"
+                        placeholder="Teléfono*" type="text" value="">
+                    <span class="field-validation-valid text-danger" data-valmsg-for="Phone" data-valmsg-replace="true"></span>
+                </div>
+                <div class="col-lg-offset-1 col-lg-4">
+                    <textarea class="form-control" cols="20" data-val="true" data-val-required="Se requiere un Mensaje" id="Message" name="Message"
+                        placeholder="Mensaje*" rows="2"></textarea>
+                    <span class="field-validation-valid text-danger" data-valmsg-for="Message" data-valmsg-replace="true"></span>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <button type="submit" class="btn btn-primary btn-xl sr-button" data-sr-id="9" style="; visibility: visible;  -webkit-transform: translateY(20px) scale(0.9); opacity: 0;transform: translateY(20px) scale(0.9); opacity: 0;">Enviar mensaje</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
