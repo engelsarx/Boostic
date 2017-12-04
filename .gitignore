@@ -7,7 +7,6 @@
 .sass-cache/
 node_modules/
 dist/
-dev/js/lib/
 dev/css/
 dev/*.html
 dev/fonts/ibbc-font.+(eot|svg|ttf|woff|woff2)
