@@ -1,3 +1,14 @@
 .site-header {
   
 }
+
+header {
+    .header-content {
+        pointer-events: none;
+        &-inner {
+            .btn-primary {
+                pointer-events: all;
+            }
+        }
+    }
+}
