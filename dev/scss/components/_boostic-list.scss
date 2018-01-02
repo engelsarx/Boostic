@@ -35,7 +35,6 @@
           a {
             color: palette(black, base);
             border-bottom: 0 !important;
-            text-shadow: 0px 0px 0 palette(black, base), 0px 0px 0 palette(black, base), 0px 0px 0 palette(black, base), 0px 0px 0 palette(black, base), 0px 0px 0 palette(black, base);
             .slider {
                 &:before {
                     left: 0;
@@ -53,7 +52,6 @@
           padding: 0;
           line-height: 36px;
           transition: all ease 200ms;
-          text-shadow: 0px 0px 0 transparent, 0px 0px 0 transparent, 0px 0px 0 transparent, 0px 0px 0 transparent, 0px 0px 0 transparent;
           outline: none;
           .slider {
             position: absolute;
@@ -88,7 +86,6 @@
         &.active {
             color: palette(black, base);
             border-bottom: 0 !important;
-            text-shadow: 0px 0px 0 palette(black, base), 0px 0px 0 palette(black, base), 0px 0px 0 palette(black, base), 0px 0px 0 palette(black, base), 0px 0px 0 palette(black, base);
             .slider {
                 &:before {
                     left: 0;
@@ -106,7 +103,7 @@
     }
   
     &__link {
-      color: $secondary-color;
+      color: $primary-color;
       text-decoration: none;
       border-bottom: 1px solid;
       transition: all ease 400ms;

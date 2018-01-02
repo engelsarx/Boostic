@@ -93,5 +93,6 @@ hr {
 
 a {
   cursor: pointer;
+  color: $primary-color;
   @extend %transition;
 }

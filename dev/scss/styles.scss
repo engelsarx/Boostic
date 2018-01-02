@@ -9,6 +9,10 @@
 @import 'config/fonts';
 // @import 'config/debug';
 
+// Lib
+// ------------
+@import 'lib/bootstrap/bootstrap';
+
 
 // Icon font
 // -------------------------
@@ -24,10 +28,6 @@
 @import 'base/basics';
 @import 'base/utils';
 
-// Lib
-// ------------
-@import 'lib/bootstrap/bootstrap';
-
 // Layout
 // ------------
 @import 'layout/header';
@@ -35,6 +35,8 @@
 @import 'layout/main';
 @import 'layout/footer';
 @import 'layout/creative';
+@import 'layout/services';
+@import 'layout/team';
 
 // Components
 // ------------
@@ -42,6 +44,7 @@
 @import 'components/buttons';
 @import 'components/forms';
 @import 'components/boostic-list';
+@import 'components/social-list';
 
 // Pages
 // ------------

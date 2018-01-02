@@ -6,7 +6,7 @@
       display: inline-block;
       background-image: url("../images/ibbc-sprites.svg");
       background-repeat: no-repeat;
-      background-size: 13.89em 72.8em;
+      background-size: 5.2em 20.8em;
 
       .no-svg & {
         background-image: url("../images/ibbc-sprites.png");
@@ -17,7 +17,7 @@
 
 
 
-.sprite-icon.accessibility {
+.sprite-icon.consulting {
   &:before {
       background-position: -1em -1em;
       width: 3.2em;
@@ -25,12 +25,12 @@
     }
   }
 
-  @mixin sprite-icon-accessibility(){
-    @extend .accessibility;
+  @mixin sprite-icon-consulting(){
+    @extend .consulting;
   }
 
 
-.sprite-icon.address-book {
+.sprite-icon.development {
   &:before {
       background-position: -1em -6.2em;
       width: 3.2em;
@@ -38,12 +38,12 @@
     }
   }
 
-  @mixin sprite-icon-address-book(){
-    @extend .address-book;
+  @mixin sprite-icon-development(){
+    @extend .development;
   }
 
 
-.sprite-icon.aid-kit {
+.sprite-icon.mobile-app {
   &:before {
       background-position: -1em -11.4em;
       width: 3.2em;
@@ -51,12 +51,12 @@
     }
   }
 
-  @mixin sprite-icon-aid-kit(){
-    @extend .aid-kit;
+  @mixin sprite-icon-mobile-app(){
+    @extend .mobile-app;
   }
 
 
-.sprite-icon.airplane {
+.sprite-icon.solutions {
   &:before {
       background-position: -1em -16.6em;
       width: 3.2em;
@@ -64,138 +64,8 @@
     }
   }
 
-  @mixin sprite-icon-airplane(){
-    @extend .airplane;
-  }
-
-
-.sprite-icon.alarm {
-  &:before {
-      background-position: -1em -21.8em;
-      width: 3.2em;
-      height: 3.2em;
-    }
-  }
-
-  @mixin sprite-icon-alarm(){
-    @extend .alarm;
-  }
-
-
-.sprite-icon.amazon {
-  &:before {
-      background-position: -1em -27em;
-      width: 3.2em;
-      height: 3.2em;
-    }
-  }
-
-  @mixin sprite-icon-amazon(){
-    @extend .amazon;
-  }
-
-
-.sprite-icon.ambient {
-  &:before {
-      background-position: -1em -32.2em;
-      width: 3.2em;
-      height: 3.2em;
-    }
-  }
-
-  @mixin sprite-icon-ambient(){
-    @extend .ambient;
-  }
-
-
-.sprite-icon.android {
-  &:before {
-      background-position: -1em -37.4em;
-      width: 3.2em;
-      height: 3.2em;
-    }
-  }
-
-  @mixin sprite-icon-android(){
-    @extend .android;
-  }
-
-
-.sprite-icon.angry {
-  &:before {
-      background-position: -1em -42.6em;
-      width: 3.2em;
-      height: 3.2em;
-    }
-  }
-
-  @mixin sprite-icon-angry(){
-    @extend .angry;
-  }
-
-
-.sprite-icon.angry2 {
-  &:before {
-      background-position: -1em -47.8em;
-      width: 3.2em;
-      height: 3.2em;
-    }
-  }
-
-  @mixin sprite-icon-angry2(){
-    @extend .angry2;
-  }
-
-
-.sprite-icon.appleinc {
-  &:before {
-      background-position: -1em -53em;
-      width: 3.2em;
-      height: 3.2em;
-    }
-  }
-
-  @mixin sprite-icon-appleinc(){
-    @extend .appleinc;
-  }
-
-
-.sprite-icon.arrow-down {
-  &:before {
-      background-position: -1em -58.2em;
-      width: 3.2em;
-      height: 3.2em;
-    }
-  }
-
-  @mixin sprite-icon-arrow-down(){
-    @extend .arrow-down;
-  }
-
-
-.sprite-icon.bell {
-  &:before {
-      background-position: -1em -63.4em;
-      width: 3.2em;
-      height: 3.2em;
-    }
-  }
-
-  @mixin sprite-icon-bell(){
-    @extend .bell;
-  }
-
-
-.sprite-icon.node {
-  &:before {
-      background-position: -1em -68.6em;
-      width: 11.89em;
-      height: 3.2em;
-    }
-  }
-
-  @mixin sprite-icon-node(){
-    @extend .node;
+  @mixin sprite-icon-solutions(){
+    @extend .solutions;
   }
 
 
