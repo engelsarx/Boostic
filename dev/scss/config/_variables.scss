@@ -13,15 +13,15 @@ $namespace: "ibbc";
 
 // Brand Colours
 //-----------
-$primary-color: #019798;
+$primary-color: #CE0173;
 $primary-lighten-color: lighten($primary-color, 10%);
 $primary-darken-color: darken($primary-color, 10%);
 
-$secondary-color: #820363;
+$secondary-color: #D56739;
 $secondary-lighten-color: lighten($secondary-color, 10%);
 $secondary-darken-color: darken($secondary-color, 10%);
 
-$tertiary-color: #CB6BB4;
+$tertiary-color: rgb(44, 44, 44);
 $tertiary-lighten-color: lighten($tertiary-color, 10%);
 $tertiary-darken-color: darken($tertiary-color, 10%);
 
@@ -100,9 +100,9 @@ $youtube-color: #cd201f;
 
 // Fonts
 //-----------
-$ff-medium: 'helvetica-neue_regular', 'Helvetica', 'Arial', sans-serif;
-$ff-bold: 'helvetica-neue_bold', 'Helvetica', 'Arial', sans-serif;
-$ff-regular: 'helvetica-neue_light', 'Helvetica', 'Arial', sans-serif;
+$ff-medium: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+$ff-bold: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+$ff-regular: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
 
 // Font weight
 //-----------

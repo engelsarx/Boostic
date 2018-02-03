@@ -149,12 +149,12 @@ header {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url('https://static.pexels.com/photos/51415/pexels-photo-51415.jpeg');
+    background-image: url('../images/hero1.jpg');
     text-align: center;
     color: white;
     overflow: hidden;
     canvas {
-      background-color: rgba(0, 0, 0, 0.9);
+        //background-color: rgba(0, 0, 0, 0.9);
     }
 }
 
